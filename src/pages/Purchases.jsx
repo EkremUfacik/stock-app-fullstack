@@ -9,7 +9,7 @@ import PurchasesTable from "../components/tables/PurchasesTable";
 import MultiSelect from "../components/MultiSelect";
 
 const Purchases = () => {
-  const { getProCatBrands } = useStockCalls();
+  const { getProCatBrands, getPurchases } = useStockCalls();
   const { purchases } = useSelector((state) => state.stock);
   const [open, setOpen] = useState(false);
   const [info, setInfo] = useState({});
@@ -18,6 +18,7 @@ const Purchases = () => {
 
   useEffect(() => {
     getProCatBrands();
+    getPurchases();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (

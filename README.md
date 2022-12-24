@@ -1,17 +1,20 @@
-# Redux Toolkit Ornegi
+# Stock App
 
-## `Kurulum`
+## Build with
 
-```
-npm install veya yarn
-```
+- React
+- @reduxjs/toolkit
+- react-redux
+- Axios
+- MUI 
+- Firebase
+- Context
 
-## `Kullanilan Kutuphaneler`
+## Link
+- https://stock-app-eu.netlify.app/
 
-- `@reduxjs/toolkit`
-- `react-redux`
-- `axios`
-- `react-router-dom`
-- `@mui/material-ui`
-- `@emotion/react`
-- `@emotion/styled`
+## Screenshot
+
+<img src="src/asset/fireblog-app.gif" alt="user" style="zoom: 200%;" />
+
+

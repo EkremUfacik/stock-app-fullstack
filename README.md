@@ -3,12 +3,10 @@
 ## Build with
 
 - React
-- @reduxjs/toolkit
-- react-redux
+- Redux-Toolkit
+- React-Redux
 - Axios
 - MUI 
-- Firebase
-- Context
 
 ## Link
 - https://stock-app-eu.netlify.app/

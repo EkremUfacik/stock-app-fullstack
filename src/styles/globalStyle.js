@@ -2,6 +2,12 @@ export const btnHoverStyle = {
   cursor: "pointer",
   "&:hover": { color: "red" },
 };
+
+export const editHoverStyle = {
+  cursor: "pointer",
+  "&:hover": { color: "#1536db" },
+};
+
 export const modalStyle = {
   position: "absolute",
   top: "50%",

@@ -13,7 +13,11 @@ import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import EditIcon from "@mui/icons-material/Edit";
 
 import useSortColumn from "../../hooks/useSortColumn";
-import { arrowStyle, btnHoverStyle } from "../../styles/globalStyle";
+import {
+  arrowStyle,
+  btnHoverStyle,
+  editHoverStyle,
+} from "../../styles/globalStyle";
 import useStockCalls from "../../hooks/useStockCalls";
 import { useSelector } from "react-redux";
 import { Typography } from "@mui/material";
@@ -143,7 +147,7 @@ const ProductsTable = ({
               <TableCell align="center">{`$${item.price_total}`}</TableCell>
               <TableCell align="center">
                 <EditIcon
-                  sx={{ ...btnHoverStyle, mr: 1 }}
+                  sx={{ ...editHoverStyle, mr: 1 }}
                   onClick={() => {
                     setOpen(true);
                     setInfo(item);

@@ -6,7 +6,7 @@ import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 import EditIcon from "@mui/icons-material/Edit";
 import { CardHeader } from "@mui/material";
 import useStockCalls from "../hooks/useStockCalls";
-import { btnHoverStyle, flex } from "../styles/globalStyle";
+import { btnHoverStyle, editHoverStyle, flex } from "../styles/globalStyle";
 import { Box } from "@mui/system";
 
 const BrandCard = ({ brand, setOpen, setInfo }) => {
@@ -42,7 +42,7 @@ const BrandCard = ({ brand, setOpen, setInfo }) => {
 
       <CardActions sx={flex}>
         <EditIcon
-          sx={btnHoverStyle}
+          sx={editHoverStyle}
           onClick={() => {
             setInfo(brand);
             setOpen(true);

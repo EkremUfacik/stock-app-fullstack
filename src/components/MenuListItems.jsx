@@ -47,8 +47,8 @@ const icons = [
 const iconStyle = {
   color: "#eee",
   "& .MuiSvgIcon-root": { color: "#eee" },
-  "&:hover": { color: "red" },
-  "&:hover .MuiSvgIcon-root": { color: "red" },
+  "&:hover": { color: "#7c8ace" },
+  "&:hover .MuiSvgIcon-root": { color: "#7c8ace" },
 };
 
 const MenuListItems = () => {

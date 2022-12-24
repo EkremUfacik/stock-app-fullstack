@@ -144,7 +144,10 @@ const ProductsTable = ({
               <TableCell align="center">
                 <EditIcon
                   sx={{ ...btnHoverStyle, mr: 1 }}
-                  onClick={() => (setOpen(true), setInfo(item))}
+                  onClick={() => {
+                    setOpen(true);
+                    setInfo(item);
+                  }}
                 />
                 <DeleteForeverIcon
                   sx={btnHoverStyle}

@@ -44,7 +44,10 @@ export default function ModalPurchase({ open, setOpen, info, setInfo }) {
   return (
     <Modal
       open={open}
-      onClose={() => (setOpen(false), setInfo({}))}
+      onClose={() => {
+        setOpen(false);
+        setInfo({});
+      }}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
     >

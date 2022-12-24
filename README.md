@@ -15,6 +15,6 @@
 
 ## Screenshot
 
-<img src="src/asset/fireblog-app.gif" alt="user" style="zoom: 200%;" />
+<img src="src/assets/stock-app.gif" alt="user" style="zoom: 200%;" />
 
 

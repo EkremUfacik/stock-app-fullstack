@@ -69,7 +69,11 @@ function Dashboard(props) {
             Stock App
           </Typography>
           {currentUser && (
-            <Button color="inherit" onClick={() => logout()}>
+            <Button
+              color="inherit"
+              sx={{ "&:hover": { color: "#7c8ace" } }}
+              onClick={() => logout()}
+            >
               Logout
             </Button>
           )}

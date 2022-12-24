@@ -18,7 +18,7 @@ export default function FirmCard({ firm, setOpen, setInfo }) {
       sx={{
         p: 1,
         width: "300px",
-        height: "350px",
+        height: "400px",
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",

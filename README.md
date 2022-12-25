@@ -1,17 +1,18 @@
-# Redux Toolkit Ornegi
+# Stock App
 
-## `Kurulum`
+## Build with
 
-```
-npm install veya yarn
-```
+- React
+- Redux-Toolkit
+- React-Redux
+- Axios
+- MUI 
 
-## `Kullanilan Kutuphaneler`
+## Link
+- https://stock-app-eu.netlify.app/
 
-- `@reduxjs/toolkit`
-- `react-redux`
-- `axios`
-- `react-router-dom`
-- `@mui/material-ui`
-- `@emotion/react`
-- `@emotion/styled`
+## Screenshot
+
+<img src="src/assets/stock-app.gif" alt="user" style="zoom: 200%;" />
+
+

@@ -7,6 +7,8 @@
 - React-Redux
 - Axios
 - MUI 
+- Formik - Yup
+- Tremor
 
 ## Link
 - https://stock-app-eu.netlify.app/

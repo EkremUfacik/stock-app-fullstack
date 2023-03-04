@@ -25,6 +25,7 @@ const Register = () => {
             boxShadow: "2px 2px 15px 5px black",
           }}
           src={image}
+          alt="register"
         />
       </Box>
       <Typography variant="h4" align="center" m={2} color="secondary.light">

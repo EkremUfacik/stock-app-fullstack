@@ -26,6 +26,7 @@ const Login = () => {
             boxShadow: "2px 2px 15px 5px black",
           }}
           src={image}
+          alt="login"
         />
       </Box>
       <Typography variant="h4" align="center" m={2} color="secondary.light">

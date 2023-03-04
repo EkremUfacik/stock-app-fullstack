@@ -1,8 +1,7 @@
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
-import Avatar from "@mui/material/Avatar";
 import { Formik } from "formik";
-import image from "../assets/sword.jpg";
+import image from "../assets/stock3.jpg";
 import RegisterForm, { registerSchema } from "../components/RegisterForm";
 import { Link } from "react-router-dom";
 import { Box } from "@mui/material";
@@ -18,15 +17,16 @@ const Register = () => {
         STOCK APP
       </Typography>
 
-      <Avatar
-        sx={{
-          m: "auto",
-          width: 250,
-          height: 250,
-          boxShadow: "2px 2px 15px 5px black",
-        }}
-        src={image}
-      ></Avatar>
+      <Box sx={{ textAlign: "center" }}>
+        <img
+          style={{
+            width: 400,
+            height: 250,
+            boxShadow: "2px 2px 15px 5px black",
+          }}
+          src={image}
+        />
+      </Box>
       <Typography variant="h4" align="center" m={2} color="secondary.light">
         Register
       </Typography>

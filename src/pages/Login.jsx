@@ -1,9 +1,8 @@
-import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { Formik } from "formik";
-import image from "../assets/monk.png";
+import image from "../assets/stock.jpg";
 
 import { Link } from "react-router-dom";
 import LoginForm, { loginSchema } from "../components/LoginForm";
@@ -19,15 +18,16 @@ const Login = () => {
         STOCK APP
       </Typography>
 
-      <Avatar
-        sx={{
-          m: "auto",
-          width: 300,
-          height: 300,
-          boxShadow: "2px 2px 15px 5px black",
-        }}
-        src={image}
-      ></Avatar>
+      <Box sx={{ textAlign: "center" }}>
+        <img
+          style={{
+            width: 400,
+            height: 250,
+            boxShadow: "2px 2px 15px 5px black",
+          }}
+          src={image}
+        />
+      </Box>
       <Typography variant="h4" align="center" m={2} color="secondary.light">
         Login
       </Typography>

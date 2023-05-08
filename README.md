@@ -2,6 +2,8 @@
 
 ## Build with
 
+- Django Rest Framework
+- dj-rest-auth
 - React
 - Redux-Toolkit
 - React-Redux

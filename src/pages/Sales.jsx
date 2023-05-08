@@ -8,7 +8,9 @@ import SaleModal from "../components/modals/SaleModal";
 import SalesTable from "../components/tables/SalesTable";
 
 const Sales = () => {
-  const { sales } = useSelector((state) => state.stock);
+  const { sales, products } = useSelector((state) => state.stock);
+  console.log(products);
+  console.log(sales);
   const { getProCatBrands, getSales } = useStockCalls();
   // const { getAllStockData } = useStockCalls();
 

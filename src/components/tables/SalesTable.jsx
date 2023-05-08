@@ -25,7 +25,7 @@ import { Typography } from "@mui/material";
 
 const SalesTable = ({ setOpen, setInfo, selectedProducts, selectedBrands }) => {
   const { deleteSale } = useStockCalls();
-  const { sales } = useSelector((state) => state.stock);
+  const { sales, products } = useSelector((state) => state.stock);
 
   const columnObj = {
     created: 1,
@@ -120,7 +120,7 @@ const SalesTable = ({ setOpen, setInfo, selectedProducts, selectedBrands }) => {
             >
               <TableCell align="center">{item.createds}</TableCell>
               <TableCell align="center">
-                {item.category ? item.category[0].name : ""}
+                {products?.filter((p) => p.id === item.product_id)[0].category}
               </TableCell>
               <TableCell align="center">{item.brand}</TableCell>
               <TableCell align="center">{item.product}</TableCell>

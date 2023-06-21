@@ -13,7 +13,6 @@ import { useSelector } from "react-redux";
 
 const Login = () => {
   const { login } = useAuthCalls();
-  const { loading } = useSelector((state) => state.auth);
   const guest = {
     email: process.env.REACT_APP_GUEST_EMAIL,
     password: process.env.REACT_APP_GUEST_PASSWORD,

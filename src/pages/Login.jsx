@@ -9,7 +9,6 @@ import LoginForm, { loginSchema } from "../components/LoginForm";
 
 import useAuthCalls from "../hooks/useAuthCalls";
 import { LoadingButton } from "@mui/lab";
-import { useSelector } from "react-redux";
 
 const Login = () => {
   const { login } = useAuthCalls();
